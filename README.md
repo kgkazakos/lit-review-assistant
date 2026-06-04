@@ -1,6 +1,6 @@
 # lit-review-assistant
 
-**CPR Orbital Tool #40 · S6: Pre-study & impact · Dec 11, 2026**
+**CPR Orbital Tool #40 · S6: Pre-study & impact**
 
 Summarises relevant HCI and AI papers for a given research topic with citation scaffolding. Built for UX researchers and academics who need structured literature coverage without a library assistant or hours of manual annotation.
 
