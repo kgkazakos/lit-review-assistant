@@ -1,0 +1,5 @@
+1. Amershi, S. et al. (2019). Software Engineering for Machine Learning: A Case Study. ICSE.
+2. Gillies, M. et al. (2016). Human-Centred Machine Learning. CHI.
+3. Cai, C.J. et al. (2019). Human-Centered Tools for Coping with Imperfect Algorithms During Medical Decision-Making. CHI.
+4. Bansal, G. et al. (2021). Does the Whole Exceed Its Parts? The Effect of AI Explanations on Complementary Team Performance. CHI.
+5. Yang, Q. et al. (2018). Investigating How Experienced UX Designers Effectively Work with Machine Learning. TOCHI journal.
