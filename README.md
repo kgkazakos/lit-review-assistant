@@ -24,7 +24,7 @@ Literature reviews are one of the most time-consuming parts of research — and 
 - **Research gap detection** — flags missing longitudinal studies, ecological validity gaps, sparse post-2023 coverage
 - **Methodological trend detection** — identifies LLM adoption, mixed-methods patterns, venue cross-pollination
 - **Citation scaffold** — a fill-in-the-blank paragraph for related work sections
-- **LLM enrichment (on by default)** — Claude Opus 4, Gemini 3.1 Pro Preview, or GPT-5.5 via LiteLLM generate per-paper summaries and a synthesis paragraph; enrichment is strictly additive
+- **LLM enrichment (on by default)** — Claude Opus 4, Gemini 4 Argon, or GPT-5.5 via LiteLLM generate per-paper summaries and a synthesis paragraph; enrichment is strictly additive
 - **Four export formats** — Markdown review, JSON (structured), CSV table, BibTeX scaffold
 - **Rule-based fallback** — works fully offline with zero API calls
 
@@ -66,7 +66,7 @@ lit-review-assistant review refs.bib \
 # Use a specific LLM backend
 lit-review-assistant review refs.bib \
   --topic "fairness in ML" \
-  --model gemini/gemini-3.1-pro-preview
+  --model gemini/gemini-4-argon
 
 # Rule-based only (no API key needed)
 lit-review-assistant review refs.bib --topic "UX research" --no-llm
@@ -165,7 +165,7 @@ export OPENAI_API_KEY=your_key
 
 Supported models:
 - `anthropic/claude-opus-4-7`
-- `gemini/gemini-3.1-pro-preview`
+- `gemini/gemini-4-argon`
 - `openai/gpt-5.5`
 
 ---
