@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 # Locked model strings (CPR standard)
 DEFAULT_MODELS = [
     "anthropic/claude-opus-4-7",
-    "gemini/gemini-3.1-pro-preview",
+    "gemini/gemini-4-argon",
     "openai/gpt-5.5",
 ]
 
